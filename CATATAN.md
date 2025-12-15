@@ -3,3 +3,8 @@
 - software testing adalah salah satu disiplin ilmu dalam software engineering
 - Tujuan utama dari software testing adalah mematikan kualitas kode dan aplikasi kita baik
 - ilmu untuk software testing sendiri sangatlah luas, pada materi ini kita hanya akan fokus ke unit testing
+
+UNIT TEST
+- Unit test akan fokus menguji bagian kode program terkecil, biasanaya menguji sebuah method
+- Unit test biasanya dibuat keccil dan cepat, oleh karena itu biasanya kadang kode unit test lebih banyak dari kode program aslinya, karena semua skenario pengujian akan dicoba di unit test
+- Unit test bisa digunakan sebagai cara untuk meningkatkan kualitas kode program kita.
