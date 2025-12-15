@@ -8,3 +8,9 @@ UNIT TEST
 - Unit test akan fokus menguji bagian kode program terkecil, biasanaya menguji sebuah method
 - Unit test biasanya dibuat keccil dan cepat, oleh karena itu biasanya kadang kode unit test lebih banyak dari kode program aslinya, karena semua skenario pengujian akan dicoba di unit test
 - Unit test bisa digunakan sebagai cara untuk meningkatkan kualitas kode program kita.
+
+## TESTING PACKAGE
+
+- Dart memiliki package khusus untuk membuat unit test, yaitu package test
+- sebelum kita membuat unit test, kita perlu menambahkan package test terlebih dahulu ke project dart kita
+- https://pub.dev/packages/test
