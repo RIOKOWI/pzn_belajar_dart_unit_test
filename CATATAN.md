@@ -103,3 +103,12 @@ test\teardown_function_test.dart
 - jika setUpAll function di tempatkan di dalam grup function maka setUpAll function ini hanya berlaku untuk test function di dalam group function tersebut`
 
 contoh di file :
+test\setupall_function_test.dart
+
+## TEARDOWN ALL FUNCTION
+
+- jika teardown fuction akan dieksekusi di akhir setelah tiap test function di eksekusi
+- teardDownAll fucntion hanya dieksekusi sekali saja di akhr setelah semua test function di eksekusi
+- jika teardownall function di tempatkan di dalam group function, maka teardownall function ini hanya berlaku untuk test function di dalam group function tersebut.
+
+contoh di file :
