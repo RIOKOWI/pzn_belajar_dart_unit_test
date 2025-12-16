@@ -85,4 +85,5 @@ test\group_test.dart
 - jika setUp function di tempatkan di dalam group function, maka setUp function ini hanya berlaku untuk test function di dalam group function tersebut
 
 contoh di file :
+test\setUp_function_test.dart
 
