@@ -25,5 +25,9 @@ MEMBUAT TEST
 - selanjutnya nama file dart biasanya akan memiliki akhiran_test, misal contoh_test.dart
 - sama seperti ketika membuat aplikasi, saat membuat file unit test, kita juga perlu menambahkan main function di file test tersebut 
 
+TEST FUNCTION
+- untuk membuat unit test, kita bisa menggunakan function test yang terdapat di package test
+- test function tersebut memiliki parameter nama function dan juga anonymous function yang berisikan kode unit test nya
+
 contoh di file :
 test\sample_test.dart
