@@ -14,3 +14,13 @@ UNIT TEST
 - Dart memiliki package khusus untuk membuat unit test, yaitu package test
 - sebelum kita membuat unit test, kita perlu menambahkan package test terlebih dahulu ke project dart kita
 - https://pub.dev/packages/test
+
+contoh di file : 
+pubspec.yaml
+
+## TEST FUNCTION 
+
+MEMBUAT TEST
+- dart memiliki standarisasi untuk struktur folder pembuatan unit test, biasanya dibuat menggunakan nama folder test
+- selanjutnya nama file dart biasanya akan memiliki akhiran_test, misal contoh_test.dart
+- sama seperti ketika membuat aplikasi, saat membuat file unit test, kita juga perlu menambahkan main function di file test tersebut 
