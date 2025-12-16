@@ -65,5 +65,8 @@ function:
 
  expect(value, matcher)
 
+- defaultnya menggunakan equals
+
 contoh di file :
+test\matcher_test.dart
 
