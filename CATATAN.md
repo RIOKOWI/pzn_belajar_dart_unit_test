@@ -120,4 +120,9 @@ test\teardownall_function_test.dart
 - kita bisa menandai sebuah unit test dengan annotation @TestOn, untuk memberi tahu bahwa unit test ini untuk platform yang kita sebutkan, sehingga jika kita menjalankan unit test tersebut di platform yang berbeda, secara otomatis unit test tersebut akan di skip
 - platform selector mendukung operator boolean seperti &&, || dan !
 
+PLATFORM SELECTOR PARAMETER
+- saat menggunakan annotation @TestOn, maka seluruh unit test di file tersebut akan menggunakan platform selector yang sudah ditentukan
+- kadang, kita hanya ingin beberapa test function atau group function saja misalnya, pada kasus ini kita bisa menambahkan parameter testOn
+
 contoh di file :
+test\platform_selector_test.dart

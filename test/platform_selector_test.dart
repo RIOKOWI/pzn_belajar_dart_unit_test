@@ -1,4 +1,4 @@
-@TestOn('windows || mac-os || linux') // bisa di jalankan di OS windows, macos & linux
+@TestOn('windows || mac-os || linux') // test bisa di jalankan di OS windows, macos & linux
 
 import 'package:test/test.dart';
 
