@@ -113,3 +113,11 @@ test\setupall_function_test.dart
 
 contoh di file :
 test\teardownall_function_test.dart
+
+## PLATFORM SELECTOR
+
+- pada beberapa kasus, mungkin kita membuat kode Dart yang dikhususkan untuk platform tertentu, misal untuk sistem operasi tertentu misalnya
+- kita bisa menandai sebuah unit test dengan annotation @TestOn, untuk memberi tahu bahwa unit test ini untuk platform yang kita sebutkan, sehingga jika kita menjalankan unit test tersebut di platform yang berbeda, secara otomatis unit test tersebut akan di skip
+- platform selector mendukung operator boolean seperti &&, || dan !
+
+contoh di file :
