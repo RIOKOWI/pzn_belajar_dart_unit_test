@@ -40,3 +40,12 @@ test\sample_test.dart
   dart test
 
 secara otomatisa dart akan menjalankan semua unit test di folder test
+
+## EXPECT FUNCTION
+
+- saat kita membut unit test, salah satu yang paling penting adalah memastikan apakah data yang kita test benar atau salah
+- hal ini disebut assertion
+- di dart, untuk melakukan assertion kita bisa menggunakan function expect, dimana terdapat dua parameter, pertama adalah data yang akan di test, dan kedua adalah harapan datanya
+- jika ternyata data tidak sesuai yang di harapkan, maka secara otomatis akan terjadi error yang menyebabkan unit test dianggap gagal
+
+contoh di file :
