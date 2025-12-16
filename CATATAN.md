@@ -87,3 +87,11 @@ test\group_test.dart
 contoh di file :
 test\setUp_function_test.dart
 
+## TEARDOWN FUNCTION
+
+- jika setUp function adalah function yang selalu dieksekusi di awal unit test, maka tearDown adalah function yang selalu dieksekusi di akhir unit test
+- cocok untuk melakukan hal yang harus dilakukan setelah semua unit test berjalan
+- jika tearDown function di tempatkan di dalam group function, maka tearDown function ini hanya berlaku untuk test function di dalam group function tersebut.
+
+contoh di file :
+
