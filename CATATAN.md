@@ -58,5 +58,12 @@ MATCHER PACKAGE
 - kita bisa menggunakan Matcher Package, dimana terdapat banyak sekali function dan constant yang bisa kita gunakan untuk mempermudah kita melakukan assertion
 - saat menginstall test package, matcher package otomatis terinstall, sehingga kita tidak perlu menginstalnya secara manual
 
+MENGGUNAKAN MATCHER
+- [dokumentasi matcher](https://pub.dev/documentation/matcher/latest/matcher/)
+- cara penggunaan matcher, kita bisa menggunakannya pada parameter kedua pada expect
+function:
+
+ expect(value, matcher)
+
 contoh di file :
 
