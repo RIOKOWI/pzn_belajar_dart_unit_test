@@ -31,3 +31,12 @@ TEST FUNCTION
 
 contoh di file :
 test\sample_test.dart
+
+## MENJALANKAN TEST 
+
+- untuk menjalankan file test, kita bisa menggunakan perintah :
+  dart test tes/namafile_test.dart
+- atau jika kita ingin menjalankan semua unit test, kita bisa gunakan perintah :
+  dart test
+
+secara otomatisa dart akan menjalankan semua unit test di folder test
