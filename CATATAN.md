@@ -76,4 +76,13 @@ test\matcher_test.dart
 - melakukan grouping lebih bagus dilakukan ketika sebuah file unit test berisikan banyak sekali test function
 
 contoh di file :
+test\group_test.dart
+
+## SETUP FUNCTION
+
+- setUp function merupakan sebuah function yang bisa kita gunakan untuk meregistrasi kode yang selalu dieksekusi setiap kalo test function di eksekusi
+- setUp function cocok sekali ketika kita butuh membuat sebuah kode yang berulang di awal test function
+- jika setUp function di tempatkan di dalam group function, maka setUp function ini hanya berlaku untuk test function di dalam group function tersebut
+
+contoh di file :
 
