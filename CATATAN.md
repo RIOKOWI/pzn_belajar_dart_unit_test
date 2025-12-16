@@ -24,3 +24,6 @@ MEMBUAT TEST
 - dart memiliki standarisasi untuk struktur folder pembuatan unit test, biasanya dibuat menggunakan nama folder test
 - selanjutnya nama file dart biasanya akan memiliki akhiran_test, misal contoh_test.dart
 - sama seperti ketika membuat aplikasi, saat membuat file unit test, kita juga perlu menambahkan main function di file test tersebut 
+
+contoh di file :
+test\sample_test.dart
