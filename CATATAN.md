@@ -70,3 +70,10 @@ function:
 contoh di file :
 test\matcher_test.dart
 
+## GROUP FUNCTION
+
+- group() function merupakan sebuah function yang bisa digunakan untuk melakukan grouping test function
+- melakukan grouping lebih bagus dilakukan ketika sebuah file unit test berisikan banyak sekali test function
+
+contoh di file :
+
