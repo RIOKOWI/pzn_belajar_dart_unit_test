@@ -95,3 +95,11 @@ test\setUp_function_test.dart
 
 contoh di file :
 test\teardown_function_test.dart
+
+## SETUP ALL FUNCTION
+
+- jika setUp function akan dieksekusi di awal sebelum tiap test function di eksekusi
+- setUpAll function hanya di eksekusi sekali saja, di awal sebelum test function di eksekusi 
+- jika setUpAll function di tempatkan di dalam grup function maka setUpAll function ini hanya berlaku untuk test function di dalam group function tersebut`
+
+contoh di file :
