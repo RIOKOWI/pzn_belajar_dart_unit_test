@@ -50,3 +50,13 @@ secara otomatisa dart akan menjalankan semua unit test di folder test
 
 contoh di file :
 test\expect_test.dart
+
+## MATCHER
+
+MATCHER PACKAGE
+- saat kita membuat assertion pada unit test, pengecekannya tidak hanya menggunakan kondisi equalas, kadang ada kondisi lain
+- kita bisa menggunakan Matcher Package, dimana terdapat banyak sekali function dan constant yang bisa kita gunakan untuk mempermudah kita melakukan assertion
+- saat menginstall test package, matcher package otomatis terinstall, sehingga kita tidak perlu menginstalnya secara manual
+
+contoh di file :
+
