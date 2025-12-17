@@ -134,3 +134,4 @@ test\platform_selector_test.dart
 - kita bisa menggunakan annotation @Skip untuk menandai sebuah file unit test agar di skip
 
 contoh di file :
+test\skip_test.dart
