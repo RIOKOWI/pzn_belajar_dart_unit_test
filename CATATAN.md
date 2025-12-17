@@ -150,3 +150,13 @@ test\skip_parameter_test.dart
 - Salah satu keuntungan menambahkan tag, kita bisa meminta Dart untuk menjalankan unit test dart test --tags"tag dengan boolean selector"
 
 contoh di file :
+test\tag_test.dart
+
+## RETRY TEST
+
+- saat membuat unit test, kadang ada kalanya unit test tersebut tidak stabil, misal butuh konek ke database atau ke sistem lain
+- hal ini menyebabkan kadang unit test sering gagal, bukan karena kode salah, tapi karena faktor seperti koneksi network, dan lain-lain
+- dart memiliki fitur untuk melakukan retry ketika unit test gagal dilakukan
+- kita bisa menggunakan annotation @Retry dan secara otomatis unit test akan di retry sejumlah yan kita tentukan
+
+contoh di file :
