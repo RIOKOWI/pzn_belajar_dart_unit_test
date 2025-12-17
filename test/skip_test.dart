@@ -1,4 +1,4 @@
-@Skip('This unit test still broken') // contoh skip
+@Skip('This unit test still broken') // contoh skip seluruh unit test di file ini
 
 import 'package:test/test.dart';
 

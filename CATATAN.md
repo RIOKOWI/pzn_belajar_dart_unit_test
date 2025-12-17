@@ -133,5 +133,10 @@ test\platform_selector_test.dart
 - pada kasus ini, jangan hapus unit test tersebut, tapi tandai unit test tersebut agara tidak dijalankan, atau skip
 - kita bisa menggunakan annotation @Skip untuk menandai sebuah file unit test agar di skip
 
+SKIP PARAMETER
+- Menggunakan Annotation @Skip secara otomatis akan melakukan skip seluruh test di file tersebut
+- kadang, ada kalanya kita hanya ingin melakukan skip satu buat test function atau group function
+- kita bisa menambahkan object parameter, skip pada test function dan group function.
+
 contoh di file :
 test\skip_test.dart
