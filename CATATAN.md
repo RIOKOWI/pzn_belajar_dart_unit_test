@@ -164,11 +164,13 @@ RETRY PARAMATER
 
 contoh di file :
 test\retry_test.dart
+test\retry_parameter_test.dart
 
-## PLATFORM SPERCIFIC CONFIGURATION
+## PLATFORM SPECIFIC CONFIGURATION
 
 - saat menggunakan @Skip, secara otomatis tidak akan melihat platform apapun, dia akan di skip secara otomatis
 - bagaimana jika kasusnya misalnya, kita ingin melakukan Skip, namun hanya untuk platform "mac-os" saja?
 - pada kasus seperti ini, kita bisa menggunakan annotation @OnPlatform
 
 contoh di file :
+test\onplatform_test.dart
