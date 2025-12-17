@@ -126,3 +126,11 @@ PLATFORM SELECTOR PARAMETER
 
 contoh di file :
 test\platform_selector_test.dart
+
+## SKIP TEST
+
+- Saat kita membuat unit test, kadang ada kalanya sebuah unit test bermasalah dan belum bisa di perbaiki
+- pada kasus ini, jangan hapus unit test tersebut, tapi tandai unit test tersebut agara tidak dijalankan, atau skip
+- kita bisa menggunakan annotation @Skip untuk menandai sebuah file unit test agar di skip
+
+contoh di file :
