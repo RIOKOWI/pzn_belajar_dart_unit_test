@@ -181,7 +181,12 @@ test\onplatform_test.dart
 ## PACKAGE CONFIGURATION
 
 - sebelumnya, kita hanya melakukan pengaturan di file unit test dart saja
-- Ap yang terjadi jika misal kita butuh pengaturan yang sama, untuk semua file unit test? misal kita ingin semua hanya jalan di windows, atau semua memiliki tag, dan lain-lain. Maka, kita harus lakukan satu persatu di file dart nya
+- Apa yang terjadi jika misal kita butuh pengaturan yang sama, untuk semua file unit test? misal kita ingin semua hanya jalan di windows, atau semua memiliki tag, dan lain-lain. Maka, kita harus lakukan satu persatu di file dart nya
 - untungnya, dart memiliki package configuration file untuk unit test, dimana kita bisa gunakan file yaml untuk menambah informasi unit test di seluruh package hanya dengan satu file, yaitu dart_test.yaml
+
+CONFIGURATION FORMAT
+- banyak sekali yang bisa kita atur di package configuration file
+- kita bisa melihat detail nya di dokumentasu resminya
+- https://github.com/dart-lang/test/blob/master/pkgs/test/doc/configuration.md
 
 contoh di file :
