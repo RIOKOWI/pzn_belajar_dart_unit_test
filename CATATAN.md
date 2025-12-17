@@ -159,4 +159,8 @@ test\tag_test.dart
 - dart memiliki fitur untuk melakukan retry ketika unit test gagal dilakukan
 - kita bisa menggunakan annotation @Retry dan secara otomatis unit test akan di retry sejumlah yan kita tentukan
 
+RETRY PARAMATER
+- jika kita hanya ingin melakukan retry pada test atau group function tertentu, kita juga bisa menambahkan named parameter retry
+
 contoh di file :
+test\retry_test.dart
