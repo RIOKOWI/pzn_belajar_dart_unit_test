@@ -172,5 +172,8 @@ test\retry_parameter_test.dart
 - bagaimana jika kasusnya misalnya, kita ingin melakukan Skip, namun hanya untuk platform "mac-os" saja?
 - pada kasus seperti ini, kita bisa menggunakan annotation @OnPlatform
 
+PLATFORM SPECIFIC PARAMETER
+- sama dengan annotation lainnya, jika misal kita hanya ingin menambahkan konfigurasi platform pada test atau group tertentu, kita bisa tambahan named parameter onPlatform
+
 contoh di file :
 test\onplatform_test.dart
