@@ -1,0 +1,6 @@
+test_on: "windows"
+
+tags:
+  second:
+    skip: "test ini dalam perbaikan"
+

@@ -190,3 +190,4 @@ CONFIGURATION FORMAT
 - https://github.com/dart-lang/test/blob/master/pkgs/test/doc/configuration.md
 
 contoh di file :
+dart_test.yaml
