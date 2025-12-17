@@ -140,3 +140,4 @@ SKIP PARAMETER
 
 contoh di file :
 test\skip_test.dart
+test\skip_parameter_test.dart
