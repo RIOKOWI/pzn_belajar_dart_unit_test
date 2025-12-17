@@ -141,3 +141,12 @@ SKIP PARAMETER
 contoh di file :
 test\skip_test.dart
 test\skip_parameter_test.dart
+
+## TAG
+
+- saat membuat unit test yang banyak, kadang kita ingin menambahkan tag terhadap unit test nya
+- biasanya ini digunakan sebagai penanda untuk tag
+- kita bisa menggunakan annotation @Tags, atau menggunakn named parameter tags di test atau group function
+- Salah satu keuntungan menambahkan tag, kita bisa meminta Dart untuk menjalankan unit test dart test --tags"tag dengan boolean selector"
+
+contoh di file :
