@@ -14,7 +14,7 @@ void main(){
 
     test('save book must success', () { // testing save book success
       bookService.save('1', 'Anak Bader', 50000);
-      verify(bookRepository.save(Book('1', 'Anak Bader', 50000))); // untuk verify
+      verify(bookRepository.save(Book('1', 'Anak Bader', 50000))).called(1); // untuk verify & dipanggil satu kali
     });
 
   });
