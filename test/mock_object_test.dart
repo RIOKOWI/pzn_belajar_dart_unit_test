@@ -1,3 +1,4 @@
+import 'package:mockito/mockito.dart';
 import 'package:pzn_belajar_dart_unit_test/book.dart';
 import 'package:mockito/annotations.dart';
 import 'package:test/test.dart';
@@ -13,6 +14,7 @@ void main(){
 
     test('save book must success', () { // testing save book success
       bookService.save('1', 'Anak Bader', 50000);
+      verify(bookRepository.save(Book('1', 'Anak Bader', 50000))); // untuk verify
     });
 
   });

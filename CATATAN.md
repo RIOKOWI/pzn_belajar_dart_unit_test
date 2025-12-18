@@ -241,7 +241,13 @@ test\mock_object_test.mocks.dart
 ## VERIFIKASI MOCK OBJECT
 
 - saat kita membuat unit test menggunakan mock object, yang perlu diperhatikan adalah, kita harus bisa memastikan bahwa Mock Object tersebut benar benar dipanggil, karena jika tidak, resikonya unit test kita menjadi tidak valid
-- contoh, misal kita hapus kode yang memanggil Book Repository di BookService, dan lihat apa yang terjadi 
+- contoh, misal kita hapus kode yang memanggil Book Repository di BookService, dan lihat apa yang terjadi
+
+KENAPA UNIT TEST SUKSES?
+- walaupun kode BookRepository sudah dihapus, namun unit test tetap sukses, hal ini dikarenakan kita tidak melakukan verifikasi apapun pada unit test nya
+- oleh karena itu, ketika menggunakan Mock Object, biasanya kita selalu melakukan verifikasi interaksi yang terjadi
+- Kita bisa menggunakan function verify untuk memastikan bahwa Mock Object dipanggil
 
 contoh di file :
 lib\src\book_service.dart
+test\mock_object_test.dart
