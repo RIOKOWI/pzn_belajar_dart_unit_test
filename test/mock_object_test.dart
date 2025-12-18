@@ -17,6 +17,7 @@ void main(){
       verify(bookRepository.save(Book('1', 'Anak Bader', 50000))).called(1); // untuk verify & dipanggil satu kali
     });
 
+    // STUBING
     test('find book by id not found', (){ // tanpa stubing defaultnya akan null atau throw exception
         expect(() {
           bookService.find('1');
@@ -33,6 +34,17 @@ void main(){
       expect(book, equals(Book('1', 'Anak Bader', 50000)));
 
       verify(bookRepository.findById('1')).called(1);
+    });
+
+    // ARGUMENT MATCHER
+    test('find by id argumnet matcher', (){ 
+      when(bookRepository.findById(argThat(startsWith('rio')))) // find by prefix rio menggunakan matcher
+        .thenReturn(Book('rioMpruy', 'Anak Bader', 50000)); // return rioMpruy
+
+      var book = bookService.find('rioMpruy'); // cari
+      expect(book, equals(Book('rioMpruy', 'Anak Bader', 50000))); // expect
+
+      verify(bookRepository.findById(any)).called(1); // verify any/apa saja asal called 1
     });
   });
 }
