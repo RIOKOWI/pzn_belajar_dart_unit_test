@@ -5,6 +5,7 @@ class Book {
 
   Book(this.id, this.name, this.price);
 
+  // agar jika ada data yang sama akan mengembalikan nilai true
   @override
   bool operator ==(Object other) =>
     identical(this, other) ||

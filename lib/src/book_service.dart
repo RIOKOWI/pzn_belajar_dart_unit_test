@@ -7,6 +7,7 @@ class BookService {
 
   BookService(this.bookRepository);
 
+  // function save
   void save(String id, String name, int price){
     if (id == "" || name == "" || price <= 0){
       throw Exception('invalid data');
@@ -14,6 +15,7 @@ class BookService {
     bookRepository.save(Book(id, name, price));
   }
 
+  // function update
   void update(String id, String name, int price){
     if(id == "" || name == "" || price <= 0){
       throw Exception('invalid data');
@@ -29,6 +31,7 @@ class BookService {
     }
   }
 
+  // function delete
   void delete(String id){
     var book = bookRepository.findById(id);
     if(book == null){

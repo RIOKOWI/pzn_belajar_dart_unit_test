@@ -206,3 +206,7 @@ CONTOH KASUS
 - BookService memiliki methd yang bisa digunakan untuk membuat Book, mengubah Book, mengambil Book dan menghapus Book
 
 contoh di file :
+lib\src\book_repository.dart
+lib\src\book_service.dart
+lib\src\book.dart
+lib\book.dart
