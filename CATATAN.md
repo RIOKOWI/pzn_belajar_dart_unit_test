@@ -210,3 +210,11 @@ lib\src\book_repository.dart
 lib\src\book_service.dart
 lib\src\book.dart
 lib\book.dart
+
+## MOCKITO
+
+- Dart sudah menyediakan package khusus untuk membuat mock object yaitu Mockito
+- https://pub.dev/packages/mockito
+- Mockito merupakan package yang terinspirasi dari library mock object java dengan nama sama, yaitu mockito 
+
+contoh di file :
