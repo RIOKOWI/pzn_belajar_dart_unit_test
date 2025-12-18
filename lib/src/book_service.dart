@@ -38,5 +38,12 @@ class BookService {
     }
   }
 
-  
+  Book find(String id){
+    var book = bookRepository.findById(id);
+    if(book == null){
+      throw Exception('Book Not Found');
+    } else {
+      return book;
+    }
+  }
 }
