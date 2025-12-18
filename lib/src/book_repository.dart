@@ -16,7 +16,7 @@ class BookRepository {
     throw UnsupportedError('Delete not supported');
   }
 
-  Book findById(String id){
+  Book? findById(String id){
     print('find book ny id $id');
     throw UnsupportedError('Find not supported');
   }
