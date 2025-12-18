@@ -17,5 +17,12 @@ void main(){
       verify(bookRepository.save(Book('1', 'Anak Bader', 50000))).called(1); // untuk verify & dipanggil satu kali
     });
 
+    test('find book by id not found', (){ // tanpa stubing defaultnya akan null atau throw exception
+        expect(() {
+          bookService.find('1');
+        }, throwsException); // return error
+    });
+
+    test(description, body)
   });
 }
