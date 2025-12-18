@@ -217,4 +217,9 @@ lib\book.dart
 - https://pub.dev/packages/mockito
 - Mockito merupakan package yang terinspirasi dari library mock object java dengan nama sama, yaitu mockito 
 
+MENGINSTALL MOCKITO
+- sebelum kita menggunakan Mockito, silahkan tambahkan package mockito terlebih dahulu
+- selain itu, mckito juga membutuhkan package build_runner, jadi pastikan kita menambahkan package build_runner juga
+- 
+
 contoh di file :
