@@ -237,3 +237,11 @@ PERINTAH MENJALANKAN BUILD RUNNER
 contoh di file :
 test\mock_object_test.dart
 test\mock_object_test.mocks.dart
+
+## VERIFIKASI MOCK OBJECT
+
+- saat kita membuat unit test menggunakan mock object, yang perlu diperhatikan adalah, kita harus bisa memastikan bahwa Mock Object tersebut benar benar dipanggil, karena jika tidak, resikonya unit test kita menjadi tidak valid
+- contoh, misal kita hapus kode yang memanggil Book Repository di BookService, dan lihat apa yang terjadi 
+
+contoh di file :
+lib\src\book_service.dart

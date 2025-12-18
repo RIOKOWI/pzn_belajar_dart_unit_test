@@ -12,7 +12,7 @@ class BookService {
     if (id == "" || name == "" || price <= 0){
       throw Exception('invalid data');
     }
-    bookRepository.save(Book(id, name, price));
+    // bookRepository.save(Book(id, name, price)); // tetap sukses karna mocknya tidak di verifikasi
   }
 
   // function update
