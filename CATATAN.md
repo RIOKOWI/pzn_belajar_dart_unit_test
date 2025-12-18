@@ -231,4 +231,9 @@ pubspec.yaml
 - Pertama, kita perlu memberitahu Mockito untuk membuat mock object dengan menggunakan annotation, GenerateNiceMocks, dan lakukan import ke file dengan format namafile_test.mocks.dart
 - selanjutnya, kita perlu menjalankan build_runner, agar file mock otomatis dilakukan oleh mockito
 
+PERINTAH MENJALANKAN BUILD RUNNER 
+- dart run build_runner build
+
 contoh di file :
+test\mock_object_test.dart
+test\mock_object_test.mocks.dart
