@@ -21,8 +21,18 @@ void main(){
         expect(() {
           bookService.find('1');
         }, throwsException); // return error
+
+        verify(bookRepository.findById('1')).called(1);
     });
 
-    test(description, body)
+    test('find by id success', (){ // success
+      when(bookRepository.findById('1'))
+        .thenReturn(Book('1', 'Anak Bader', 50000));
+
+      var book = bookService.find('1');
+      expect(book, equals(Book('1', 'Anak Bader', 50000)));
+
+      verify(bookRepository.findById('1')).called(1);
+    });
   });
 }
