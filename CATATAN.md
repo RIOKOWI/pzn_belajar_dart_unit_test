@@ -223,3 +223,12 @@ MENGINSTALL MOCKITO
 - https://pub.dev/packages/build_runner
 
 contoh di file :
+pubspec.yaml
+
+## MEMBUAT MOCK OBJECT
+
+- Cara kerja Mockito adalah dengan membuat generated file berisi mock class yang bisa kita gunakan sebagai pengganti class aslinya
+- Pertama, kita perlu memberitahu Mockito untuk membuat mock object dengan menggunakan annotation, GenerateNiceMocks, dan lakukan import ke file dengan format namafile_test.mocks.dart
+- selanjutnya, kita perlu menjalankan build_runner, agar file mock otomatis dilakukan oleh mockito
+
+contoh di file :
