@@ -191,3 +191,12 @@ CONFIGURATION FORMAT
 
 contoh di file :
 dart_test.yaml
+
+## MOCK OBJECT
+
+- Saat kita membuat unit test, kadang tidak semua object bisa kita test
+- Contoh, misal kita memiliki object yang harus mengirim API Request ke Payment Gateway, atau sistem lain yang diluar kontrol kita
+- Pada kasus seperti ini, kita tidak bisa memakasakan untuk membuat unit test yang mengirim request ke sistem lain, karena jika kita paksakan, bisa jadi nanti hasil unit testnya tidak konsisten
+- pada kasus seperti ini, kita bisa menggunakan konsep bernama Mock Object, yaitu membuat object tiruan yang bisa kita atur tingkah lakunya agar sesuai dengan yang kita inginkan
+
+contoh di file :
