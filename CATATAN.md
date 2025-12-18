@@ -248,6 +248,11 @@ KENAPA UNIT TEST SUKSES?
 - oleh karena itu, ketika menggunakan Mock Object, biasanya kita selalu melakukan verifikasi interaksi yang terjadi
 - Kita bisa menggunakan function verify untuk memastikan bahwa Mock Object dipanggil
 
+CALLED FUNCTION
+- selain melakukan verifikasi terhadap mock object, kita juga wajib memastikan jumlah eksekusi kode mock object
+- Misal, saat save data book, kita harus pastikan bahwa, BookRepository.save() hanya dipanggil satu kali
+- Kita bisa menggunakan called() function setelah melakukan verify
+
 contoh di file :
 lib\src\book_service.dart
 test\mock_object_test.dart
