@@ -21,11 +21,22 @@ class BookService {
 
     var book = bookRepository.findById(id);
     if(book == null){
-      throw Exception('data not found');
+      throw Exception('Book not found');
     } else {
       book.name = name;
       book.price = price;
       bookRepository.save(book);
     }
   }
+
+  void delete(String id){
+    var book = bookRepository.findById(id);
+    if(book == null){
+      throw Exception('Book Not found');
+    } else {
+      bookRepository.delete(book);
+    }
+  }
+
+  
 }
