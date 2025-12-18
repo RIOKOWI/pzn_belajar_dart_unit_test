@@ -220,6 +220,6 @@ lib\book.dart
 MENGINSTALL MOCKITO
 - sebelum kita menggunakan Mockito, silahkan tambahkan package mockito terlebih dahulu
 - selain itu, mckito juga membutuhkan package build_runner, jadi pastikan kita menambahkan package build_runner juga
-- 
+- https://pub.dev/packages/build_runner
 
 contoh di file :
