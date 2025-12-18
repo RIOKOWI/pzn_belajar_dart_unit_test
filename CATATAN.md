@@ -256,3 +256,13 @@ CALLED FUNCTION
 contoh di file :
 lib\src\book_service.dart
 test\mock_object_test.dart
+
+## STUBING
+
+- Stubing adalah mengubah tingkah laku mock object sebelum digunakan
+- saat kita membuat mock object, kadang beberapa function butuh mengembalikan value misalnya
+- kita bisa menambahkan tingkah laku ke mock object ketika mock object terssebut dipanggil, dengan menggunakan when function
+- selanjutnya, kita bisa menentukan reaksi apa yang perlu dilakukan oleh mock stub tersebut dengan menggunakan thenreturn, thenAnswer, atau thenThrow function
+
+
+contoh di file :
