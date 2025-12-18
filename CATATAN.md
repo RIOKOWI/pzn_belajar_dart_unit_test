@@ -274,3 +274,11 @@ test\mock_object_test.dart
 
 contoh di file :
 test\mock_object_test.dart
+
+## BEST PRACTICE MOCK OBJECT
+
+!!TESTING SELALU GUNAKAN REAL OBJECT!!
+- Testing menggunakan real object lebih baik dibandingkan menggunakan mock object
+- selama kita bisa membuat real objectnya, selalu gunakan real object, dibandingkan menggunakan mock object
+- gunakan mock object, hanya ketika tidak bisa membuat real object nya di unit test
+- jika menggunakan mock object, pastikan selalu melakukan verifikasi interaksi yang terjadi terhadap mock object tersebut
